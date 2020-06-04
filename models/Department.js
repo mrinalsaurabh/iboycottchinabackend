@@ -3,27 +3,27 @@
 // You can think that this is a representation of the database and we are using that
 // for saving, reading, updating information from the database.
 
-var mongoose    = require('mongoose');
+var mongoose = require('mongoose');
 
-var departmentSchema  = mongoose.Schema({
+var departmentSchema = mongoose.Schema({
     departmentName: {
         type: String,
-        index   : true
+        index: true
     },
-    categories:{
+    categories: {
         type: String
     }
 });
 
-var Department = module.exports = mongoose.model('Department', departmentSchema);
+var Department = module.exports = mongoose.model('department', departmentSchema);
 
 // These are functions to get data from the database. You can even reach the information
 // without calling this functions but I just want to show you how you can add some functions
 // to your model file to get specific data.
 
-module.exports.getAllDepartments = function(callback){
+module.exports.getAllDepartments = function (callback) {
     Department.find(callback)
 }
-module.exports.getDepartmentById = function(id, callback){
+module.exports.getDepartmentById = function (id, callback) {
     Department.findById(id, callback);
 }

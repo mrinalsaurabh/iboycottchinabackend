@@ -40,14 +40,18 @@ for (let i = 0; i < categories.length; i++) {
 var departments =
   [
     new Department({
-      departmentName: 'Women',
-      categories: 'Basics,Blazer'
+      departmentName: 'Electronics',
+      categories: 'Mobiles,Mobile Components'
 
     }),
     new Department({
-      departmentName: 'Men',
-      categories: 'Knitwear,Jeans,Jackets'
-    })
+      departmentName: 'Beverages',
+      categories: 'Tea,Coffee,Fruit Juices,Energy and Soft Drinks,Health Supplements'
+    }),
+    new Department({
+      departmentName: 'Personal Care',
+      categories: 'Hair Oil,Skin Care,Oral Care,Bath and Hand Wash,Deo and Fragrance'
+    }),
   ]
 
 for (let i = 0; i < departments.length; i++) {

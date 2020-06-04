@@ -1,0 +1,29 @@
+[
+    {
+        "departmentName": "Electronics",
+        "categories": [
+            "Mobiles",
+            "Mobile Components"
+        ]
+    },
+    {
+        "departmentName": "Beverages",
+        "categories": [
+            "Tea",
+            "Coffee",
+            "Fruit Juices",
+            "Energy and Soft Drinks",
+            "Health Supplements"
+        ]
+    },
+    {
+        "departmentName": "Personal Care",
+        "categories": [
+            "Hair Oil",
+            "Skin Care",
+            "Oral Care",
+            "Bath and Hand Wash",
+            "Deo and Fragrance"
+        ]
+    }
+]
