@@ -1,4 +1,5 @@
 var express = require('express');
+
 var router = express.Router();
 const ensureAuthenticated = require('../modules/ensureAuthenticated')
 const Product = require('../models/Product')
@@ -13,7 +14,7 @@ const paypal = require('paypal-rest-sdk')
 
 
 //GET /products
-router.get('/products', function (req, res, next) {
+router.get('/api/products', function (req, res, next) {
   const { query, order } = categorizeQueryString(req.query)
   Product.getAllProducts(query, order, function (e, products) {
     if (e) {
@@ -27,7 +28,7 @@ router.get('/products', function (req, res, next) {
 });
 
 //GET /products/:id
-router.get('/products/:id', function (req, res, next) {
+router.get('/api/products/:id', function (req, res, next) {
   let productId = req.params.id;
   Product.getProductByID(productId, function (e, item) {
     if (e) {
@@ -40,7 +41,7 @@ router.get('/products/:id', function (req, res, next) {
 });
 
 //GET /variants
-router.get('/variants', function (req, res, next) {
+router.get('/api/variants', function (req, res, next) {
   let { productId } = req.query
   if (productId) {
     Variant.getVariantProductByID(productId, function (err, variants) {
@@ -60,7 +61,7 @@ router.get('/variants', function (req, res, next) {
 })
 
 //GET /variants/:id
-router.get('/variants/:id', ensureAuthenticated, function (req, res, next) {
+router.get('/api/variants/:id', ensureAuthenticated, function (req, res, next) {
   let id = req.params.id
   if (id) {
     Variant.getVariantByID(id, function (err, variants) {
@@ -71,7 +72,7 @@ router.get('/variants/:id', ensureAuthenticated, function (req, res, next) {
 })
 
 //GET /departments
-router.get('/departments', function (req, res, next) {
+router.get('/api/departments', function (req, res, next) {
   Department.getAllDepartments(function (err, d) {
     if (err) return next(err)
     res.status(200).json({ departments: d })
@@ -87,7 +88,7 @@ router.get('/categories', function (req, res, next) {
 })
 
 //GET /search?
-router.get('/search', function (req, res, next) {
+router.get('/api/search', function (req, res, next) {
   const { query, order } = categorizeQueryString(req.query)
   query['department'] = query['query']
   delete query['query']
@@ -132,7 +133,7 @@ router.get('/search', function (req, res, next) {
 })
 
 // GET filter
-router.get('/filter', function (req, res, next) {
+router.get('/api/filter', function (req, res, next) {
   let result = {}
   let query = req.query.query
   Product.filterProductByDepartment(query, function (err, p) {
@@ -162,7 +163,7 @@ router.get('/filter', function (req, res, next) {
 })
 
 //GET /checkout
-router.get('/checkout/:cartId', ensureAuthenticated, function (req, res, next) {
+router.get('/api/checkout/:cartId', ensureAuthenticated, function (req, res, next) {
   const cartId = req.params.cartId
   const frontURL = 'https://zack-ecommerce-reactjs.herokuapp.com'
   // const frontURL = 'http://localhost:3000'
@@ -221,7 +222,7 @@ router.get('/checkout/:cartId', ensureAuthenticated, function (req, res, next) {
 })
 
 //GET /payment/success
-router.get('/payment/success', ensureAuthenticated, function (req, res, next) {
+router.get('/api/payment/success', ensureAuthenticated, function (req, res, next) {
   var paymentId = req.query.paymentId;
   var payerId = { payer_id: req.query.PayerID };
   paypal.payment.execute(paymentId, payerId, function (error, payment) {
