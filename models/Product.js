@@ -31,21 +31,21 @@ var productSchema = mongoose.Schema({
   }
 });
 
-var Product = module.exports = mongoose.model('Product', productSchema);
+var Product = module.exports = mongoose.model('product', productSchema);
 
 module.exports.getAllProducts = function (query, sort, callback) {
   Product.find(query, null, sort, callback)
 }
 
-module.exports.getProductByDepartment = function (query,sort, callback) {
+module.exports.getProductByDepartment = function (query, sort, callback) {
   Product.find(query, null, sort, callback)
 }
 
-module.exports.getProductByCategory = function (query,sort, callback) {
+module.exports.getProductByCategory = function (query, sort, callback) {
   Product.find(query, null, sort, callback)
 }
 
-module.exports.getProductByTitle = function (query,sort, callback) {
+module.exports.getProductByTitle = function (query, sort, callback) {
   Product.find(query, null, sort, callback)
 }
 

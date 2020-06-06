@@ -7,6 +7,13 @@
         ]
     },
     {
+        "departmentName": "Software",
+        "categories": [
+            "Mobiles Applications",
+            "Desktop Applications"
+        ]
+    },
+    {
         "departmentName": "Beverages",
         "categories": [
             "Tea",
