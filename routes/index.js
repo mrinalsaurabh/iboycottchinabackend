@@ -3,6 +3,7 @@ var express = require('express');
 var router = express.Router();
 const ensureAuthenticated = require('../modules/ensureAuthenticated')
 const Product = require('../models/Product')
+const Alternate = require('../models/Alternates')
 const Variant = require('../models/Variant')
 const Department = require('../models/Department')
 const Category = require('../models/Category')
@@ -12,6 +13,32 @@ const CartClass = require('../modules/Cart')
 const paypal_config = require('../configs/paypal-config')
 const paypal = require('paypal-rest-sdk')
 
+//Get Alternates
+router.get('/api/alternates', function (req, res, next) {
+  const { query, order } = categorizeQueryString(req.query)
+  Alternate.getAllAlternates(query, order, function (e, alternates) {
+    if (e) {
+      e.status = 406; return next(e);
+    }
+    if (alternates.length < 1) {
+      return res.status(404).json({ message: "alternates not found" })
+    }
+    res.json({ alternates: alternates })
+  })
+});
+
+//GET /alternates/:id
+router.get('/api/alternates/:id', function (req, res, next) {
+  let alternateId = req.params.id;
+  Alternate.getAlternateByUniqueName(alternateId, function (e, item) {
+    if (e) {
+      e.status = 404; return next(e);
+    }
+    else {
+      res.json({ alternate: item })
+    }
+  });
+});
 
 //GET /products
 router.get('/api/products', function (req, res, next) {

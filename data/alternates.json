@@ -1,13 +1,13 @@
 [
     {
+        "uniquename": "mitron-app",
         "imagePath": "https://noimage",
-        "title": "Tik Tok",
+        "title": "Mitron",
         "description": "A video sharing app",
         "price": 0.0,
         "department": "Software",
         "category": "Mobiles Applications",
-        "alternates": [
-            "mitron-app"
-        ]
+        "origin": "India",
+        "source": "https://play.google.com/store/apps/details?id=com.mitron.tv&hl=en_IN"
     }
 ]
