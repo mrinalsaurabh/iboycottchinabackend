@@ -1,4 +1,2 @@
 //use your secret
-module.exports={
-  secret:"levelopers"
-}
+export const secret = "levelopers";

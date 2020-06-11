@@ -6,7 +6,7 @@
     "clean": "rm -rf dist && mkdir dist",
     "build": "babel lib -d dist",
     "dev": "nodemon --exec babel-node lib/app.js",
-    "serve": "npm run clean && npm run build && node dist/app.js&"
+    "serve": "npm run clean && npm run build && node dist/app.js > /var/log/backend-app.log&"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
