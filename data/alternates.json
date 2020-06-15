@@ -9,5 +9,49 @@
         "category": "Mobiles Applications",
         "origin": "India",
         "source": "https://play.google.com/store/apps/details?id=com.mitron.tv&hl=en_IN"
+    },
+    {
+        "uniquename": "one-plus-8-pro",
+        "imagePath": "https://i.imgur.com/nXmwoZx.png",
+        "title": "OnePlus 8 Pro",
+        "description": "A premium smartphone with android OS",
+        "price": 54999,
+        "department": "Electronics",
+        "category": "Mobiles",
+        "origin": "India",
+        "source": "https://www.oneplus.in/8-pro"
+    },
+    {
+        "uniquename": "microsoft-office",
+        "imagePath": "https://i.imgur.com/pFTy7JW.png",
+        "title": "Microsoft Office",
+        "description": "An Office Suite for Windows and Mac. Unavailable for Linux",
+        "price": 4199.00,
+        "department": "Software",
+        "category": "Desktop Applications",
+        "origin": "USA",
+        "source": "https://www.microsoft.com/"
+    },
+    {
+        "uniquename": "libre-office",
+        "imagePath": "https://i.imgur.com/Bfvtaxv.png",
+        "title": "LibreOffice.org",
+        "description": "An Office Suite for Linux, Windows and Mac.",
+        "price": 0,
+        "department": "Software",
+        "category": "Desktop Applications",
+        "origin": "Community Driven, Globally",
+        "source": "https://www.libreoffice.org/"
+    },
+    {
+        "uniquename": "tetley-green-tea",
+        "imagePath": "https://i.imgur.com/VZIcq1t.png",
+        "title": "Tetley Green Tea",
+        "description": "A brand of Indian green tea.",
+        "price": 470,
+        "department": "Beverages",
+        "category": "Tea",
+        "origin": "India",
+        "source": "https://www.libreoffice.org/"
     }
 ]

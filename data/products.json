@@ -9,5 +9,39 @@
         "alternates": [
             "mitron-app"
         ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/0QXkTVD.jpg",
+        "title": "Apple iPhone 11 Pro",
+        "description": "A mobile phone having iOS",
+        "price": 121300,
+        "department": "Electronics",
+        "category": "Mobiles",
+        "alternates": [
+            "one-plus-8-pro"
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/yyj1jiY.png",
+        "title": "WPS Office",
+        "description": "An Office Suite for Windows, Linux and Mac",
+        "price": 0,
+        "department": "Software",
+        "category": "Desktop Applications",
+        "alternates": [
+            "microsoft-office",
+            "libre-office"
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/YseCQ4H.png",
+        "title": "Huangshan Maofeng Tea",
+        "description": "A variety of green tea",
+        "price": 800,
+        "department": "Beverages",
+        "category": "Tea",
+        "alternates": [
+            "tetley-green-tea"
+        ]
     }
 ]
