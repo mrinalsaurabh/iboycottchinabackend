@@ -43,5 +43,105 @@
         "alternates": [
             "tetley-green-tea"
         ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/EHgOZFT.png",
+        "title": "Vault - Hide Pics & Videos, App Lock, Free Backup",
+        "description": "Vault is a mobile app designed to hide private pictures, videos on your phone",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/vV3IJHM.jpg",
+        "title": "Vigo Video",
+        "description": "Vigo Video is a short video social network where you can share your daily lives",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/MLPXiZY.png",
+        "title": "Bigo Live",
+        "description": "Bigo Live is a live streaming platform where users are able to share live moments with followers.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/7py9VHm.png",
+        "title": "Weibo",
+        "description": "Weibo is a Chinese social media app.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/Pw7GN1N.png",
+        "title": "WeChat",
+        "description": "WeChat is a messaging and social media app.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/67nMr2J.png",
+        "title": "SHAREit - Transfer & Share",
+        "description": "SHAREit, sharing app with fast cross-platform transfer speed.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/UXFIQtT.png",
+        "title": "UC News - Latest News, Viral Videos",
+        "description": "UC News is one of the news apps in India.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/SI7oXK1.png",
+        "title": "UC Browser- Free & Fast Video Downloader, News App",
+        "description": "UC Browser is a multifunctional browser for Android.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/0Rz0EPZ.png",
+        "title": "BeautyPlus - Easy Photo Editor & Selfie Camera",
+        "description": "BeautyPlus is an app to edit their selfies, pictures and videos.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/X9JoQb4.png",
+        "title": "Xender - Share Music&Video,Photo,File, Status Save",
+        "description": "Xender - sharing app fulfilling all your transfer needs.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
     }
 ]
