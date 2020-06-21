@@ -143,5 +143,95 @@
         "category": "Mobiles Applications",
         "alternates": [
         ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/OD13Eik.png",
+        "title": "Club Factory - Online Shopping App",
+        "description": "Club Factory Online Shopping App.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/CCWMcLQ.jpg",
+        "title": "Helo - Discover, Share & Communicate",
+        "description": "Helo is India's leading social media platform.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/MEdQqi5.png",
+        "title": "Likee - Formerly LIKE Video",
+        "description": "A World Leading Special Effects Short Video Editing Tool.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/ESxrnpk.png",
+        "title": "Kwai- Social Video Community",
+        "description": "Flawless Beauty and Professional Editing Tool.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/uqJjWgo.png",
+        "title": "ROMWE - Women's Fashion",
+        "description": "ROMWE is your online fashion lookbook that features a bunch of trendy styles for your daily outfit inspiration.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/yhvLILQ.png",
+        "title": "SHEIN - Fashion Shopping Online",
+        "description": "SHEIN App, your ultimate one-stop fashion shopping palace in your pocket.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/RWqcxoF.png",
+        "title": "NewsDog - Breaking News, Viral Video, Hot Story",
+        "description": "NewsDog, one of the news apps in India.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/3jHy3rQ.png",
+        "title": "Photo Wonder - Collage Maker",
+        "description": "Photo Wonder - Collage Maker lets you instantly arrange your photos into frames - or get creative with freeform collages, filters, frames and decorations.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
+    },
+    {
+        "imagePath": "https://i.imgur.com/JawvTXz.png",
+        "title": "APUS Browser: private browser, video downloader",
+        "description": "A mobile web browser.",
+        "price": 0,
+        "department": "Software",
+        "category": "Mobiles Applications",
+        "alternates": [
+        ]
     }
 ]
